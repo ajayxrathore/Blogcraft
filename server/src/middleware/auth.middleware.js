@@ -2,7 +2,7 @@ import { env } from "../config/env.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 import jwt from "jsonwebtoken";
 import { User } from "../model/user.model.js";
-import ApiError from "../utils/apiError.js";
+import ApiError from "../utils/ApiError.js";
 export const Protected = asyncHandler(async (req, res, next) => {
   try {
     const token =

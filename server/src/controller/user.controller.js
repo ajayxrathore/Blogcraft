@@ -1,7 +1,7 @@
 import { env } from "../config/env.js";
 import { User } from "../model/user.model.js";
 import { generateAccessAndRefreshToken } from "../service/token.js";
-import ApiError from "../utils/apiError.js";
+import ApiError from "../utils/ApiError.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 import {
   deleteCloudinaryFile,

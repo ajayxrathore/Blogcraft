@@ -1,7 +1,7 @@
 import {connectDB} from './config/connection.js'
 import app from './app.js';
 import {env} from './config/env.js'
-import ApiError from './utils/apiError.js';
+import ApiError from './utils/ApiError.js';
 const start = async() => {
     try {
         await connectDB();
