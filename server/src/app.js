@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser())
 app.use('/api/users',userRouter)
 app.use('/api/blogs',blogRouter)
-app.listen('/',(req,res)=>{
+app.get('/',(req,res)=>{
   res.send("This server is managed by AJAY RATHORE")
 })
 app.use((req,res)=>{
