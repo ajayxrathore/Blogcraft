@@ -3,9 +3,10 @@ import userRouter from './routes/user.routes.js'
 import blogRouter from './routes/blog.routes.js'
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
+import { env } from './config/env.js'
 const app = express()
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: env.CLIENT_URL,
     credentials: true,
   }))
 app.use(express.json())

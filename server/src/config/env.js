@@ -20,6 +20,7 @@ export const env = {
     JWT_REFRESH_EXPIRES_IN : process.env.JWT_REFRESH_EXPIRES_IN || '7d',
 
     COOKIE_SECURE : process.env.COOKIE_SECURE ==='true',
+    CLIENT_URL : process.env.CLIENT_URL,
 
     CLOUDINARY_CLOUD_NAME : fetchenv('CLOUDINARY_CLOUD_NAME'),
     CLOUDINARY_API_KEY : fetchenv('CLOUDINARY_API_KEY'),
