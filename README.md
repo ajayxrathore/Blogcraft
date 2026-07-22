@@ -1,6 +1,6 @@
-# BLOGCRAFT
+# WriteSpace
 
-Hello! Welcome to my blog application repository. I built this full-stack project to practice and level up my skills with the MERN stack. It is a completely functional blogging platform where users can sign up, write posts, upload images, and all other crud functionality.
+Hello! Welcome to my application repository. I built this full-stack project to practice and level up my skills with the MERN stack. It is a completely functional blogging platform where users can sign up, write posts, upload images, and all other crud functionality.
 
 I learned a ton about handling user authentication, managing database relationships, and connecting a React frontend to a Node/Express backend while making this.
 
