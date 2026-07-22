@@ -1,4 +1,4 @@
-# WriteSpace
+# ContentHub
 
 Hello! Welcome to my application repository. I built this full-stack project to practice and level up my skills with the MERN stack. It is a completely functional blogging platform where users can sign up, write posts, upload images, and all other crud functionality.
 
